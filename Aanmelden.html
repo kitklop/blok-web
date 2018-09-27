@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmelden</title>
+    <link rel="stylesheet" type="text/css" href="Stijl/Kater.css">
+</head>
+<body>
+    
+    <h1>Aanmelden</h1>
+    
+    <form action="">
+       <label>
+          Voornaam
+           <input type="text" name="name" placeholder="bijv. Kit" required>
+       </label>
+        
+        <label>
+            Achternaam
+            <input type="text" name="surname" placeholder="bijv. Klop" required>
+        </label>
+        
+        <label>
+            Telefoon
+            <input type="number" name="celnumber">
+        </label>
+
+        <label>
+          Geboortedatum
+           <input type="date" name="date" placeholder="bijv. " required>
+       </label>
+       
+       <label>
+          Postcode
+           <input type="text" name="zipcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"  placeholder="bijv. 1391VM" required>
+       </label>
+       
+       <label>
+          Gebruikersnaam
+           <input type="text" name="username" placeholder="bijv. Kit" required>
+       </label>
+       
+       <label>
+          Wachtwoord
+           <input type="password" name="password" placeholder="bijv. ****" required>
+       </label>
+        
+        <button>Aanmelden</button>
+    </form>
+    
+</body>
+</html>

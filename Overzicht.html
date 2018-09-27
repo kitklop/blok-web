@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Stijl/Kater.css">
+</head>
+
+<body>
+
+    <header>
+       
+       <a href="Overzicht.html"><img src="Stijl/Logo_NS.jpg" alt="Homepage" width="100px"></a>
+       
+        <nav>
+            <ul>
+                <li><a href="Inloggen.html">Inloggen</a></li>
+                <li><a href="/about/">Verder lezen</a></li>
+            </ul>
+        </nav>
+        
+        <form action="zoekresultaten.html"></form>
+        <label>Zoek een verhaal</label>
+        <input type="search" placeholder="bijv. Kater">
+        <button>Zoek</button>
+        
+    </header>
+
+    <h1>Verhaal op reis</h1>
+    
+    <!-- Alttekst bij een gelinkte afbeelding moet vertellen waar naartoe gelinkt -->
+
+    <h2>Filteropties</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Filteropties</legend>
+
+            <label>
+                <input type="checkbox"> Boos
+            </label>
+
+            <label>
+                <input type="checkbox"> Blij
+            </label>
+
+            <label>
+                <input type="checkbox"> Vrolijk
+            </label>
+
+            <label>
+                <input type="checkbox"> Overig
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sorteeropties</legend>
+
+            <label>
+                Leestijd
+                <input type="range" name="sorteren">
+            </label>
+
+            <label>
+                <input type="radio" name="sorteren"> Boos
+                <!-- name gebruik je zodat er maar één radiobutton tegelijk kan worden geselecteerd -->
+            </label>
+
+            <label>
+                <input type="Radio" name="sorteren"> Blij
+            </label>
+
+            <label>
+                <input type="radio" name="sorteren"> Vrolijk
+            </label>
+
+            <label>
+                <input type="radio" name="sorteren"> Overig
+            </label>
+
+        </fieldset>
+
+        <button>Klik</button>
+        <!-- liever button dan inputtype submit gebruiken door meer mogelijkheden -->
+
+    </form>
+
+    <section>
+    <!-- nodig om de linken te groepen. Met een div heeft de groep geen betekenis en met section laat je weten dat het binnen hetzelfde thema -->
+        <h2>Populaire verhalen</h2>
+
+        <article>
+            <a href="Detail.html"> <img src="Stijl/(31)%20-%20kater.png" alt="Verhaal" width="100px"></a>
+        </article>
+
+        <article>
+        <!-- om aan te geven dat het een losstaand ding is, soort zinsontleding -->
+            <a href="Detail.html">Titel</a>
+        </article>
+
+        <article>
+            <a href="Detail.html">Titel</a>
+        </article>
+
+        <article>
+            <a href="Detail.html">Titel</a>
+        </article>
+
+        <article>
+            <a href="Detail.html">Titel</a>
+        </article>
+
+    </section>
+
+</body>
+</html>

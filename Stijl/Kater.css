@@ -1,0 +1,10 @@
+label{
+    display: block;
+}
+
+@media (min-width: 30em) {
+    label{
+        display: inline;
+        /* Filteropties gaan naast elkaar staan als scherm 30em breed is, anders weer onder elkaar staan als een block */
+    }
+}
