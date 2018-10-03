@@ -2,32 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Overzicht</title>
     <link rel="stylesheet" type="text/css" href="Stijl/Kater.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
 </head>
 
 <body>
 
     <header>
-       
-       <a href="Overzicht.html"><img src="Stijl/Logo_NS.jpg" alt="Homepage" width="100px"></a>
-       
+
         <nav>
-            <ul>
-                <li><a href="Inloggen.html">Inloggen</a></li>
-                <li><a href="/about/">Verder lezen</a></li>
-            </ul>
+            <a href="Overzicht.html"><img src="Stijl/Logo%20NS.svg" alt="Homepage" height="20em"></a>
+
+            <a href="Favorieten.html"><img src="Stijl/Hartje.svg" alt="Favorieten" height="20em"></a>
         </nav>
         
-        <form action="zoekresultaten.html"></form>
-        <label>Zoek een verhaal</label>
-        <input type="search" placeholder="bijv. Kater">
-        <button>Zoek</button>
-        
+        <img src="Stijl/Overzichtsfoto@4x.png" alt="Vrouw leest op iPad" width=100%>
+
     </header>
+    
+    <div id="Nieuw">
+        <p>Nieuw! Verhaal op reis van de NS.</p>
+        <a href="Alle.html"><img src="Stijl/Pijltje%20wit.svg" alt="pijltje" height=10em id="linkpijltje"> Bekijk alle verhalen </a>
+    </div>
 
     <h1>Verhaal op reis</h1>
-    
+
+    <section>
+        <h2>Populaire verhalen</h2>
+    </section>
+
+    <section>
+        <h2>Minst gelezen verhalen</h2>
+    </section>
+
     <!-- Alttekst bij een gelinkte afbeelding moet vertellen waar naartoe gelinkt -->
 
     <h2>Filteropties</h2>
@@ -87,15 +95,16 @@
     </form>
 
     <section>
-    <!-- nodig om de linken te groepen. Met een div heeft de groep geen betekenis en met section laat je weten dat het binnen hetzelfde thema -->
+        <!-- nodig om de linken te groepen. Met een div heeft de groep geen betekenis en met section laat je weten dat het binnen hetzelfde thema -->
         <h2>Populaire verhalen</h2>
 
         <article>
             <a href="Detail.html"> <img src="Stijl/(31)%20-%20kater.png" alt="Verhaal" width="100px"></a>
+            <footer>metadata</footer>
         </article>
 
         <article>
-        <!-- om aan te geven dat het een losstaand ding is, soort zinsontleding -->
+            <!-- om aan te geven dat het een losstaand ding is, soort zinsontleding -->
             <a href="Detail.html">Titel</a>
         </article>
 

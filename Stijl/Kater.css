@@ -1,3 +1,13 @@
+body{
+    background-color: #C6C5CC;
+    font-family: "Segoe UI";
+}
+#inlogveld{
+    background-color: #FDC300;
+    padding: 2em;
+    color: #252C5E;
+}
+
 label{
     display: block;
 }
@@ -7,4 +17,21 @@ label{
         display: inline;
         /* Filteropties gaan naast elkaar staan als scherm 30em breed is, anders weer onder elkaar staan als een block */
     }
+}
+
+nav{
+    background-color: #fff;
+    padding: 1em 2em;
+}
+
+#Nieuw{
+    display: block;
+    color: #fff;
+    background-color: rgb(3, 0, 130, 0.6);
+    padding: 1em;
+    font-size: 2em;
+}
+
+#linkpijltje{
+    margin-right: 1em;
 }

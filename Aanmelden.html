@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <title>Aanmelden</title>
     <link rel="stylesheet" type="text/css" href="Stijl/Kater.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
 </head>
+
 <body>
-    
+
+    <header>
+
+        <nav>
+            <a href="Overzicht.html"><img src="Stijl/Logo%20NS.svg" alt="Homepage" height="20em"></a>
+
+            <a href="Favorieten.html"><img src="Stijl/Hartje.svg" alt="Favorieten" height="20em"></a>
+        </nav>
+
+    </header>
+
     <h1>Aanmelden</h1>
-    
+
     <form action="">
-       <label>
+        <label>
           Voornaam
            <input type="text" name="name" placeholder="bijv. Kit" required>
        </label>
-        
+
         <label>
             Achternaam
             <input type="text" name="surname" placeholder="bijv. Klop" required>
         </label>
-        
+
         <label>
             Telefoon
             <input type="number" name="celnumber">
@@ -29,24 +41,24 @@
           Geboortedatum
            <input type="date" name="date" placeholder="bijv. " required>
        </label>
-       
-       <label>
+
+        <label>
           Postcode
            <input type="text" name="zipcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"  placeholder="bijv. 1391VM" required>
        </label>
-       
-       <label>
+
+        <label>
           Gebruikersnaam
            <input type="text" name="username" placeholder="bijv. Kit" required>
        </label>
-       
-       <label>
+
+        <label>
           Wachtwoord
            <input type="password" name="password" placeholder="bijv. ****" required>
        </label>
-        
+
         <button>Aanmelden</button>
     </form>
-    
+
 </body>
 </html>
